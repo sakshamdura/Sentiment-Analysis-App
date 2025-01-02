@@ -79,6 +79,9 @@ def evaluate_model(model, X_test, y_test, model_name):
 # Streamlit app
 st.title("Sentiment Analysis App")
 
+st.markdown(f"""
+This model was trained on a dataset available at: 
+[Dataset Link]({"https://www.kaggle.com/datasets/abhi8923shriv/sentiment-analysis-dataset/data"})""")
 # Single sentence analysis
 st.header("Single Sentence Analysis")
 model_name = st.selectbox("Select Model", ("Logistic Regression","Multinomial NB", "SVM", "Fine-Tuned_DistilBERT"))

@@ -1,0 +1,2 @@
+.pth filter=lfs diff=lfs merge=lfs -text
+Fine-TunedModel/model_state.pth filter=lfs diff=lfs merge=lfs -text

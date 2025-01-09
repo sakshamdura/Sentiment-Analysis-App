@@ -48,7 +48,6 @@ def analyze_sentiment_fineTuned(text ,model):
 
 # Function for model evaluation
 
-@st.cache_data
 def get_predictions(_model, model_name, _X_test):
     if model_name == 'DistilBERT':
         y_pred = _X_test.apply(lambda x: analyze_sentiment_fineTuned(x, _model))

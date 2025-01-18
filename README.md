@@ -16,7 +16,7 @@ The repository includes:
 
 ---
 
-## **How to Set Up**
+## **How to Set Up this app (Contribution Made By Ashok Sapkota)**
 
 ### 1. **Clone the Repository**
 ```bash
